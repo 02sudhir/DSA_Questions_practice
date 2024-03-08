@@ -13,7 +13,7 @@ var fib = function(n){
 
     }
    return arr[n];
-//    console.log(arr[5]);
+//    console.log(arr[5]));
 };
 
 fib(5);
