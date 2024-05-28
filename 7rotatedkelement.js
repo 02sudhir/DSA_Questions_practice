@@ -12,7 +12,7 @@ function rotedArray(nums,k){
    
 
    const rotated = nums.splice(size-k,size);
-//    nums.unshift(...rotated);
+   nums.unshift(...rotated);
 
    return nums;
 }
