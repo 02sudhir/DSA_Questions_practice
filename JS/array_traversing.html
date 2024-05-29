@@ -15,7 +15,7 @@
         function getElemnet()
         {
             let el = document.getElementById('element').value;
-            if(el<data.length &&  typeof parseInt(el)==="num"  && el>= 0)
+            if(el<data.length &&  typeof parseInt(el)==="number" )
             {alert(data[el])}
             else{
                 alert("please enter valid amount")
