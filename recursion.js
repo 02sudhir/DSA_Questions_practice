@@ -18,5 +18,5 @@ function factorial(item) {
   }
   return item * factorial(item - 1);
 }
-let data = 5;
+let data = 8;
 console.log(factorial(data));
